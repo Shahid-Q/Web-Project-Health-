@@ -39,7 +39,8 @@ ul {
 
 #home {
     height: 100vh;
-    background: #01b5be93;
+    background: #f090cd;
+    background: radial-gradient(circle, rgba(240, 144, 205, 1) 0%, rgba(148, 187, 233, 1) 56%);
     color: #fff;
 }
 
@@ -105,7 +106,7 @@ nav ul a {
 }
 
 .btn:hover {
-    background-color: transparent;
+   background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
 }
