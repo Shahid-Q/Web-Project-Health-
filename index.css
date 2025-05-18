@@ -130,6 +130,34 @@ nav ul a {
     animation: animation2 1s ease-out;
 }
 
+.sticky-navbar { 
+position: sticky; 
+top: 0; 
+padding: 15px 0; 
+z-index: 1000; 
+} 
+
+.sticky-navbar ul { 
+list-style: none; 
+display: flex; 
+justify-content: center; 
+gap: 30px; 
+margin: 0; 
+padding: 0; 
+} 
+.sticky-navbar ul li a { 
+color: rgb(255, 255, 255); 
+text-decoration: none;
+font-weight: 500; 
+font-size: 18px; 
+transition: color 0.3s ease, transform 0.3s 
+ease; 
+} 
+.sticky-navbar ul li a:hover { 
+color: #ff00b7fc; 
+transform: scale(1.1); 
+}
+
 @keyframes animation1 {
     0%{
         transform: translateX(500px);
@@ -139,6 +167,7 @@ nav ul a {
         transform: translateX(0);
     }
 }
+
 
 @keyframes animation2 {
     0%{
@@ -212,6 +241,5 @@ nav ul a {
         text-align: center;
 
     }
-
 
 }
