@@ -27,6 +27,10 @@ background-color: #121212;
 color: white; 
 }
 
+.sticky-navbar a {
+    font-size: 24px !important;
+}
+
 .paragraph {
     max-width: 60opx;
 }
