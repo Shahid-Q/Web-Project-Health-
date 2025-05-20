@@ -6,18 +6,25 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Playfair Display", serif;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 p {
     max-width: 100%;
     word-wrap: break-word;
     padding: 0 15px;
     box-sizing: border-box;
+}
+
+/* Default: light mode */
+body { 
+background-color: white; 
+color: black; 
+transition: background-color 0.3s, color 
+0.3s; 
+} 
+
+/* Dark mode */
+body.dark-mode { 
+background-color: #121212; 
+color: white; 
 }
 
 .paragraph {
