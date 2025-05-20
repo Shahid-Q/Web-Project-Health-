@@ -13,6 +13,10 @@ p {
     box-sizing: border-box;
 }
 
+.content-text {
+    font-size: large;
+}
+
 /* Default: light mode */
 body { 
 background-color: white; 
