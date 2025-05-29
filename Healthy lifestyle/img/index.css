@@ -13,6 +13,23 @@ body {
     padding: 0;
 }
 
+.content-text {
+    font-size: large;
+}
+
+.container {
+    font-size: 22px;
+}
+
+.nav-list a {
+font-weight: 550;
+}
+
+.nav-list a:hover {
+color: #ef33d3;
+transition: 0.2s;
+}
+
 p {
     max-width: 100%;
     word-wrap: break-word;
@@ -39,7 +56,8 @@ ul {
 
 #home {
     height: 100vh;
-    background: #01b5be93;
+background: #f5a2e0;
+background: radial-gradient(circle, rgb(243, 170, 225) 0%, rgb(64, 177, 200) 100%);
     color: #fff;
 }
 
@@ -119,6 +137,11 @@ nav ul a {
     color: #fff;
     font-size: 25px;
     margin: 10px 0;
+}
+
+.social i:hover {
+    color: #a6069b;
+    transition: 0.2s;
 }
 
 .Strawberry {
