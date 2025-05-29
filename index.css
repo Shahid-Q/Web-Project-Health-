@@ -6,33 +6,35 @@
     box-sizing: border-box;
 }
 
-p {
-    max-width: 100%;
-    word-wrap: break-word;
-    padding: 0 15px;
-    box-sizing: border-box;
+body {
+    font-family: "Playfair Display", serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .content-text {
     font-size: large;
 }
 
-/* Default: light mode */
-body { 
-background-color: white; 
-color: black; 
-transition: background-color 0.3s, color 
-0.3s; 
-} 
-
-/* Dark mode */
-body.dark-mode { 
-background-color: #121212; 
-color: white; 
+.container {
+    font-size: 22px;
 }
 
-.sticky-navbar a {
-    font-size: 24px !important;
+.nav-list a {
+font-weight: 550;
+}
+
+.nav-list a:hover {
+color: #ef33d3;
+transition: 0.2s;
+}
+
+p {
+    max-width: 100%;
+    word-wrap: break-word;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 
 .paragraph {
@@ -54,8 +56,8 @@ ul {
 
 #home {
     height: 100vh;
-    background: #f090cd;
-    background: radial-gradient(circle, rgba(240, 144, 205, 1) 0%, rgba(148, 187, 233, 1) 56%);
+background: #f5a2e0;
+background: radial-gradient(circle, rgb(243, 170, 225) 0%, rgb(64, 177, 200) 100%);
     color: #fff;
 }
 
@@ -121,7 +123,7 @@ nav ul a {
 }
 
 .btn:hover {
-   background-color: transparent;
+    background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
 }
@@ -137,40 +139,17 @@ nav ul a {
     margin: 10px 0;
 }
 
+.social i:hover {
+    color: #a6069b;
+    transition: 0.2s;
+}
+
 .Strawberry {
     display: block;
     width:116px;
     border-radius: 10px;
     margin: auto;
     animation: animation2 1s ease-out;
-}
-
-.sticky-navbar { 
-position: sticky; 
-top: 0; 
-padding: 15px 0; 
-z-index: 1000; 
-} 
-
-.sticky-navbar ul { 
-list-style: none; 
-display: flex; 
-justify-content: center; 
-gap: 30px; 
-margin: 0; 
-padding: 0; 
-} 
-.sticky-navbar ul li a { 
-color: rgb(255, 255, 255); 
-text-decoration: none;
-font-weight: 500; 
-font-size: 18px; 
-transition: color 0.3s ease, transform 0.3s 
-ease; 
-} 
-.sticky-navbar ul li a:hover { 
-color: #ff00b7fc; 
-transform: scale(1.1); 
 }
 
 @keyframes animation1 {
@@ -182,7 +161,6 @@ transform: scale(1.1);
         transform: translateX(0);
     }
 }
-
 
 @keyframes animation2 {
     0%{
@@ -256,5 +234,4 @@ transform: scale(1.1);
         text-align: center;
 
     }
-
 }
