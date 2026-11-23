@@ -234,4 +234,22 @@ nav ul a {
         text-align: center;
 
     }
+
+    
+.social a {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 50%;
 }
+
+.social a:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+.social a:hover {
+    color: #a6069b;
+}
+    
+}
+
